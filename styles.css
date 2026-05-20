@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to right,rgb(255, 81, 0),rgb(255, 208, 0),yellow);
+}
+div{
+    display: flex;
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    box-shadow: 13px 13px 18px black;
+    border-radius: 5px;
+}
+#nombre{
+    margin: 10px;
+}
+#email{
+    margin: 10px;
+}
+#numero{
+    margin-bottom: 10px;
+}
+#hombre{
+    margin-right: 120px;
+}
+#mujer{
+    margin-right: 120px;
+}
+#enviar{
+    margin-left: 70px;
+}

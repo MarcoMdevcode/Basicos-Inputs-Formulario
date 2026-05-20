@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Encuesta</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+   <h1 id="titulo">Encuesta</h1>
+   <p id="descripcion">Bienvenidos a nuestro post, ayúdanos para conocer tus necesidades</p>
+<div>
+   <form id="encuesta-formulario">
+   <label id="nombre-etiqueta" for="nombre">Nombre</label>
+     <input id="nombre" type="text" required placeholder="Juanito"></input>
+     <label id="email-etiqueta" for="email">Email</label>
+     <input id="email" type="email" required placeholder="correo@gmail.com"></input><br>
+     <label id="numero-etiqueta" for="numero">Número</label>
+     <input id="numero" type="number" min="1" max="4" placeholder="1234"></input>
+     <select id="desplegable">
+      <option>Yes</option>
+      <option>No</optio>
+     </select>
+     <label for="hombre">Hombre</label>
+     <input id="hombre" type="radio" name="genre" value="genre"></input>
+     <label for="mujer">Mujer</label>
+     <input id="mujer" type="radio" name="genre" value="genre"></input>
+     <input type="checkbox" value="time">1 Día</input>
+     <input type="checkbox" value="time">2 Días</input>
+     <input type="checkbox" value="time">3 Días</input>
+     <input type="checkbox" value="time">4 Días</input>
+     <textarea></textarea>
+     <button id="enviar" type="submit" name="submit" value="submit">Enviar</button>
+  </form>
+</div>
+  </body>
+</html>
