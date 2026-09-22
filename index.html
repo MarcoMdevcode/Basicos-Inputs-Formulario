@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Encuesta</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+   <h1 id="titulo">Encuesta</h1>
+   <p id="descripcion">Bienvenidos a nuestro post, ayúdanos para conocer tus necesidades</p>
+<div class="tarjeta">
+  <form class="formulario" id="encuesta-formulario">
+    <label id="nombre-etiqueta" for="nombre">Nombre</label>
+     <input id="nombre" type="text" required placeholder="Juanito"></input>
+     <label id="email-etiqueta" for="email">Email</label>
+     <input id="email" type="email" required placeholder="correo@gmail.com"></input><br>
+     <label id="numero-etiqueta" for="numero">Número de habitación</label>
+     <input id="numero" type="number" placeholder="1234"></input>
+     <label for="desplegable">¿Nos recomendarías?</label>
+     <select id="desplegable">
+      <option>Yes</option>
+      <option>No</option>
+     </select>
+        <label for="hombre">Hombre</label>
+        <input id="hombre" type="radio" name="genre" value="genre"></input>
+        <label for="mujer">Mujer</label>
+        <input id="mujer" type="radio" name="genre" value="genre"></input>
+        <p>¿Cuántos días permaneciste con nosotros?</p> 
+        <label for="diauno"></label>
+        <input id="diauno" type="checkbox" value="time">1 Día</input>
+        <label for="diados"></label>
+        <input id="diados" type="checkbox" value="time">2 Días</input>
+        <label for="diatres"></label>
+        <input id="diatres" type="checkbox" value="time">3 Días</input>
+        <label for="diacuatro"></label>
+        <input id="diacuatro" type="checkbox" value="time">4 Días</input>
+        <p>Danos una sugerencia</p>
+     <textarea class="opinion"></textarea>
+     <button id="enviar" type="submit" name="submit" value="submit">Enviar</button>
+  </form>
+</div>
+    <div class="firma">
+      <p>by</p>
+      <img class="logo" src="Logo.jpg">
+      <p>MarcoMdevcode &copy-2026</p>
+    </div>
+</body>
+</html>
